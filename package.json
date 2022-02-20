@@ -1,0 +1,34 @@
+{
+    "type": "module",
+    "private": true,
+    "name": "webpack-template",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "webpack serve --mode development --open --hot --config webpack.config.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Kanahiro/webpack-template.git"
+    },
+    "keywords": [],
+    "author": "Kanahiro Iguchi <kanahiro.iguchi@gmail.com> (https://github.com/Kanahiro)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Kanahiro/webpack-template/issues"
+    },
+    "homepage": "https://github.com/Kanahiro/webpack-template#readme",
+    "devDependencies": {
+        "css-loader": "^6.3.0",
+        "es6-promise": "^4.2.8",
+        "style-loader": "^3.3.0",
+        "ts-loader": "^9.2.6",
+        "typescript": "^4.4.3",
+        "webpack": "^5.56.1",
+        "webpack-cli": "^4.8.0",
+        "webpack-dev-server": "^4.3.1"
+    },
+    "dependencies": {}
+}
