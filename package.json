@@ -21,6 +21,7 @@
     },
     "homepage": "https://github.com/Kanahiro/webpack-template#readme",
     "devDependencies": {
+        "@danmarshall/deckgl-typings": "^4.9.13",
         "css-loader": "^6.3.0",
         "es6-promise": "^4.2.8",
         "style-loader": "^3.3.0",
@@ -30,5 +31,8 @@
         "webpack-cli": "^4.8.0",
         "webpack-dev-server": "^4.3.1"
     },
-    "dependencies": {}
+    "dependencies": {
+        "deck.gl": "^8.6.8",
+        "deck.gl-particle": "^1.0.4"
+    }
 }
